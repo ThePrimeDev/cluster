@@ -650,9 +650,9 @@ Per problemi o domande, apri una issue su GitHub.
 
 PandaOS è sviluppato e mantenuto da:
 
-- **[Matteo Errera](https://github.com/matteoerrera)** - Lead Developer & CTO @ Runder
-- **[Roberto Zaccardi](https://github.com/rzaccardi)** - Co-Developer & Co-Founder @ Magicitems
-- **[Ludovico Verde](https://www.instagram.com/ludovico.verdee/)** - Design & Creative Direction
+- **[Matteo Errera](https://github.com/matteoerrera)**
+- **[Roberto Zaccardi](https://github.com/rzaccardi)**
+- **[Ludovico Verde](https://www.instagram.com/ludovico.verdee/)**
 
 Vedi [AUTHORS](AUTHORS) per la lista completa e dettagli sui contributori.
 
