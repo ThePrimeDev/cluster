@@ -6,7 +6,7 @@ Quadro strumenti digitale per Fiat Panda 141 basato su Raspberry Pi 4B.
 
 Sistema completo di quadro strumenti digitale che sostituisce la strumentazione analogica originale della Fiat Panda 141. Il sistema si interfaccia con la centralina tramite protocollo OBD-II (ELM327) e legge le spie luminose tramite optoaccoppiatori collegati ai pin GPIO del Raspberry Pi.
 
-### Caratteristiche Principali
+### Caratteristiche Principali (v0.9.0)
 
 - ✅ **Lettura dati OBD-II**: Velocità, giri motore, temperatura, pressione olio, etc.
 - ✅ **Rilevamento spie veicolo**: Abbaglianti, anabbaglianti, frecce, livello olio, etc.
@@ -16,6 +16,20 @@ Sistema completo di quadro strumenti digitale che sostituisce la strumentazione 
 - ✅ **Gestione quadro accensione**: Sistema di power-saving automatico
 - ✅ **Interfaccia moderna**: Dashboard 3D con modello Panda interattivo
 - ✅ **Modalità demo**: Per sviluppo senza hardware
+
+### 🗺️ Feature Future
+
+Scopri cosa stiamo pianificando: [Roadmap & Wishlist](ROADMAP.md)
+
+Alcune idee in lista:
+- 📹 Retrocamera e sensori parcheggio
+- 🚪 Animazioni 3D avanzate (portiere, luci)
+- 🎨 Dashboard e temi personalizzabili
+- 🌍 Internazionalizzazione
+- 📱 App mobile companion
+- E molto altro!
+
+Vuoi contribuire? Ogni aiuto è benvenuto! Vedi la [guida per contribuire](.github/CONTRIBUTING.md).
 
 ---
 
@@ -216,6 +230,8 @@ npm run electron
 ### Mappatura GPIO per Spie Veicolo
 
 Il file `server/config/gpio-mapping.js` contiene la mappatura completa dei pin GPIO.
+
+> 📘 **Schema Elettrico Veicolo**: Per identificare i cavi corretti delle spie sul quadro originale della Panda, consulta lo [Schema Elettrico Ufficiale Fiat Panda 141](http://www.bunkeringegnere.altervista.org/esplosi/FIAT%20PANDA/panda%20141/1100%20mpi/55%20IMPIANTO%20ELETTRICO%20-%20SCHEMI%20-%20GAMMA%202000.pdf) con tutti i codici colore e le connessioni.
 
 #### Pin Utilizzati
 
@@ -620,6 +636,7 @@ Ogni contributo è benvenuto! Che si tratti di codice, documentazione, bug repor
    - ✨ [Proponi una feature](.github/ISSUE_TEMPLATE/feature_request.md)
    - ❓ [Fai una domanda](.github/ISSUE_TEMPLATE/question.md)
    - 💻 Contribuisci con codice
+   - 💡 Cerca ispirazione nella [Roadmap & Wishlist](.github/CONTRIBUTING.md#-vuoi-contribuire-ma-non-hai-idee)
 
 ### 📝 Workflow Contribuzione
 
@@ -637,6 +654,16 @@ Ogni contributo è benvenuto! Che si tratti di codice, documentazione, bug repor
 - [✨ Feature Request](.github/ISSUE_TEMPLATE/feature_request.md) - Proponi miglioramenti
 - [❓ Domanda](.github/ISSUE_TEMPLATE/question.md) - Chiedi aiuto
 - [🔀 Pull Request](.github/PULL_REQUEST_TEMPLATE.md) - Contribuisci con codice
+
+### 💡 Cerchi Idee?
+
+Non sai da dove iniziare? Abbiamo una [Roadmap & Wishlist](.github/CONTRIBUTING.md#-vuoi-contribuire-ma-non-hai-idee) di feature che vorremmo implementare:
+- Retrocamera e sensori parcheggio
+- Animazioni 3D avanzate (portiere, luci sul modello)
+- Dashboard personalizzabili e temi
+- Tutorial fotografici e video
+- Internazionalizzazione
+- E molto altro!
 
 Consulta la [guida completa per contribuire](.github/CONTRIBUTING.md) per tutti i dettagli.
 

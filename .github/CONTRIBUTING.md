@@ -332,6 +332,78 @@ node server.js
 
 ---
 
+## 💡 Vuoi Contribuire ma Non Hai Idee?
+
+Ecco una lista di feature e miglioramenti che ci piacerebbe implementare ma non abbiamo ancora trovato il tempo!
+
+### 🚗 Feature Hardware
+
+**Alta Priorità**:
+- [ ] **Retrocamera integrata** - Visualizzazione camera posteriore nel cluster quando si innesta la retromarcia
+- [ ] **Sensori di parcheggio** - Visualizzazione grafica distanza ostacoli con radar ultrasonici
+- [ ] **Animazione portiere 3D** - Rappresentare sportelli aperti/chiusi sul modello 3D della Panda nel cluster
+- [ ] **Luci sul modello 3D** - Mostrare luci accese (abbaglianti, frecce, etc.) direttamente sul modello 3D
+
+**Media Priorità**:
+- [ ] **Sensore pioggia** - Regolazione automatica tergicristalli
+- [ ] **Sensore luminosità** - Auto-regolazione luminosità display
+- [ ] **Pressione pneumatici (TPMS)** - Integrazione sensori pressione gomme
+- [ ] **Supporto CAN Bus** - Oltre a OBD-II, supporto per protocollo CAN nativo (non previsto sulla Panda ma potrebbe essere utile per altre vetture)
+- [ ] **Camera 360°** - Sistema multi-camera per visione completa (tipo auto moderne)
+
+### 💻 Feature Software
+
+**Alta Priorità**:
+- [ ] **Sistema trip computer** - Log viaggi con consumo, distanza, tempo
+- [ ] **Dashboard personalizzabili** - Layout multipli selezionabili dall'utente
+- [ ] **Temi colore** - Dark mode, light mode, temi personalizzati
+- [ ] **Calibrazione assistita** - Wizard per calibrare sensori carburante/temperatura
+- [ ] **App mobile companion** - Statistiche veicolo su smartphone
+
+**Media Priorità**:
+- [ ] **Manutenzione programmata** - Alert per tagliandi, cambio olio, revisione
+- [ ] **Integrazione meteo** - Temperatura esterna da API meteo se sensore non disponibile
+- [ ] **Mode notte/giorno automatico** - Basato su ora o sensore luminosità
+
+### 📚 Documentazione
+
+**Alta Priorità**:
+- [ ] **Tutorial cablaggio fotografico** - Guida passo-passo con foto reali del cablaggio optoaccoppiatori
+- [ ] **Video guida installazione** - Tutorial video completo dal cablaggio al software
+- [ ] **Internazionalizzazione (i18n)** - Traduzioni EN, ES, DE, FR
+- [ ] **File di traduzione centralizzato** - Spostare tutti i testi in file JSON/i18n
+- [ ] **Schema PCB custom** - Design PCB professionale per optoaccoppiatori (KiCad/Eagle)
+
+**Media Priorità**:
+- [ ] **FAQ estesa** - Domande frequenti con troubleshooting dettagliato
+- [ ] **Case study installazioni** - Esempi reali di installazioni completate
+- [ ] **Guide compatibilità** - Lista veicoli compatibili oltre Panda 141
+- [ ] **Wiring diagram interattivo** - Schema elettrico navigabile online
+
+### 🧪 Testing & Qualità
+
+- [ ] **Unit tests** - Testing automatizzato per servizi backend
+- [ ] **E2E tests** - Test interfaccia completi con Playwright/Cypress
+- [ ] **Performance profiling** - Ottimizzazione rendering e memoria
+
+### 🔧 Compatibilità & Estensioni
+
+- [ ] **Supporto altri veicoli** - Uno, Tipo, Punto, Seicento...
+
+---
+
+### 🚀 Come Iniziare
+
+1. **Scegli un task** dalla lista sopra che ti interessa
+2. **Apri una issue** usando [Feature Request](https://github.com/cyberpandino/cluster/issues/new?template=feature_request.md)
+3. **Discuti l'implementazione** con i maintainer
+4. **Fork e sviluppa** seguendo questa guida
+5. **Apri una PR** quando pronto
+
+Anche implementazioni parziali sono benvenute! Non serve completare tutta la feature in una volta.
+
+---
+
 ## ❓ Domande?
 
 - **Issue**: Apri una [question issue](https://github.com/cyberpandino/cluster/issues/new?template=question.md)

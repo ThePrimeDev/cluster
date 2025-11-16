@@ -166,6 +166,8 @@ Lista completa dei componenti hardware necessari per realizzare il progetto Pand
 - 13× Resistenze limitatrici LED (1kΩ - 2.2kΩ)
 - Breadboard o PCB custom per montaggio
 
+> 📘 **Schema Elettrico Ufficiale**: Per identificare i cavi corretti delle spie sul veicolo, consulta lo [Schema Elettrico Fiat Panda 141 - Manuale Officina](http://www.bunkeringegnere.altervista.org/esplosi/FIAT%20PANDA/panda%20141/1100%20mpi/55%20IMPIANTO%20ELETTRICO%20-%20SCHEMI%20-%20GAMMA%202000.pdf). Include tutti gli schemi dell'impianto elettrico gamma 2000 con codici colore cavi.
+
 ---
 
 ## 🔗 Accessori e Cablaggio
@@ -366,6 +368,15 @@ Transistor optoaccoppiatore → GPIO (3.3V)
 - **ADS1115**: Texas Instruments ADS1115 Datasheet
 - **PC817**: Sharp PC817 Datasheet
 - **ELM327**: ELM Electronics ELM327 Datasheet
+
+### Schema Elettrico Veicolo
+
+- **Fiat Panda 141 - Impianto Elettrico Gamma 2000**: [Manuale Officina - Schemi Elettrici](http://www.bunkeringegnere.altervista.org/esplosi/FIAT%20PANDA/panda%20141/1100%20mpi/55%20IMPIANTO%20ELETTRICO%20-%20SCHEMI%20-%20GAMMA%202000.pdf)
+  - Schema completo impianto elettrico 1100 MPI
+  - Codici colore cavi (es. R=Rosso, N=Nero, BN=Bianco-Nero, etc.)
+  - Posizione spie e connettori sul quadro strumenti
+  - Identificazione centralina di derivazione e fusibili
+  - **Essenziale per identificare i cavi corretti da collegare agli optoaccoppiatori**
 
 ### Guide Configurazione
 

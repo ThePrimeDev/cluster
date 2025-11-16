@@ -334,6 +334,8 @@ highBeam: {
 
 ### Cablaggio Optoaccoppiatori
 
+> 📘 **IMPORTANTE**: Prima di collegare gli optoaccoppiatori, consulta lo [Schema Elettrico Ufficiale Fiat Panda 141](http://www.bunkeringegnere.altervista.org/esplosi/FIAT%20PANDA/panda%20141/1100%20mpi/55%20IMPIANTO%20ELETTRICO%20-%20SCHEMI%20-%20GAMMA%202000.pdf) per identificare i cavi corretti con i codici colore (es. R=Rosso, BN=Bianco-Nero, GV=Giallo-Verde).
+
 #### Schema Singolo Optoaccoppiatore (PC817)
 
 ```
@@ -355,6 +357,13 @@ highBeam: {
 - **PC817**: Optoaccoppiatore standard
 - **Pin 1-2**: LED interno (lato veicolo)
 - **Pin 3-4**: Transistor di uscita (lato Raspberry)
+
+**Come identificare i cavi**:
+1. Consulta lo schema elettrico ufficiale (link sopra)
+2. Trova il quadro strumenti (pagina "Collegamento quadro strumenti")
+3. Identifica la spia desiderata (es. abbaglianti, frecce, etc.)
+4. Annota il codice colore del cavo (es. "BN" = Bianco-Nero)
+5. Verifica con multimetro la presenza di 12V quando la spia è accesa
 
 #### Circuito Completo Multi-Spia
 
@@ -1099,6 +1108,7 @@ sudo i2cdetect -y 1
 - **ADS1115**: https://www.ti.com/lit/ds/symlink/ads1115.pdf
 - **PC817 Optocoupler**: https://www.farnell.com/datasheets/73758.pdf
 - **ELM327**: https://www.elmelectronics.com/wp-content/uploads/2017/01/ELM327DS.pdf
+- **Fiat Panda 141 - Schema Elettrico Ufficiale**: http://www.bunkeringegnere.altervista.org/esplosi/FIAT%20PANDA/panda%20141/1100%20mpi/55%20IMPIANTO%20ELETTRICO%20-%20SCHEMI%20-%20GAMMA%202000.pdf
 
 ### Comandi Utili
 

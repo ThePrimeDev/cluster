@@ -14,6 +14,10 @@ Guida rapida per avviare il progetto in 5 minuti.
 **Leggi**: [README.md](README.md)  
 Documentazione principale completa con setup, configurazione e troubleshooting.
 
+### 🛒 Devi Acquistare Componenti?
+**Consulta**: [HARDWARE.md](HARDWARE.md)  
+Lista completa hardware necessario con specifiche e costi.
+
 ### 🔧 Devi Configurare l'Hardware?
 **Vai a**: [server/CONFIGURAZIONE_SERVER.md](server/CONFIGURAZIONE_SERVER.md)  
 Setup GPIO, OBD-II, sensori e configurazione Raspberry Pi.
@@ -25,6 +29,10 @@ Configurazione completa dell'interfaccia e modalità operative.
 ### 🏗️ Vuoi Estendere il Sistema?
 **Studia**: [ARCHITETTURA.md](ARCHITETTURA.md)  
 Architettura tecnica, flussi dati e guide per aggiungere funzionalità.
+
+### 💡 Vuoi Contribuire ma Non Hai Idee?
+**Vedi**: [ROADMAP.md](ROADMAP.md)  
+Feature future, wishlist e idee per contribuire al progetto.
 
 ---
 
@@ -91,7 +99,39 @@ Architettura tecnica, flussi dati e guide per aggiungere funzionalità.
 
 ---
 
-### 5. [server/CONFIGURAZIONE_SERVER.md](server/CONFIGURAZIONE_SERVER.md) - Setup Hardware e Server
+### 5. [ROADMAP.md](ROADMAP.md) - Feature Future e Wishlist
+**Contenuto**:
+- 🚗 Feature hardware (retrocamera, sensori parcheggio, animazioni 3D)
+- 💻 Feature software (trip computer, dashboard custom, app mobile)
+- 📚 Documentazione (tutorial foto/video, i18n, PCB design)
+- 🧪 Testing & qualità
+- 🔧 Compatibilità altri veicoli Fiat
+- 🎨 UI/UX miglioramenti
+- 🌐 Integrazioni servizi (Maps, Spotify, meteo)
+- 📊 Stato sviluppo corrente
+- 🤝 Come contribuire alle feature
+
+**Per Chi**: Chi vuole contribuire ma cerca idee, chi vuole sapere il futuro del progetto
+
+---
+
+### 6. [client/CONFIGURAZIONE.md](client/CONFIGURAZIONE.md) - Configurazione Client
+**Contenuto**:
+- 📁 File `environment.ts` spiegato in dettaglio
+- 🔧 Parametri WebSocket (URL, mock mode, timeout)
+- 🎬 Configurazione splash screen
+- 🐛 Debug mode e console viewer
+- 🌍 Locale, timezone, formato orario
+- 📋 Esempi configurazione (sviluppo, produzione, testing)
+- 🔄 Workflow di sviluppo
+- 🔍 Modalità mock vs reale
+- 🚨 Troubleshooting client
+
+**Per Chi**: Frontend developers, chi personalizza l'interfaccia
+
+---
+
+### 7. [server/CONFIGURAZIONE_SERVER.md](server/CONFIGURAZIONE_SERVER.md) - Setup Hardware e Server
 **Contenuto**:
 - 🛠️ Requisiti hardware completi
 - 🔧 Configurazione Raspberry Pi passo-passo
@@ -176,6 +216,7 @@ cockpit/
 ├── README.md                          ← 📖 Documentazione principale
 ├── QUICK_START.md                     ← ⚡ Guida rapida
 ├── HARDWARE.md                        ← 🛒 Lista completa hardware
+├── ROADMAP.md                         ← 🗺️ Feature future e wishlist
 ├── DOCUMENTAZIONE.md                  ← 📚 Questo file (indice)
 ├── ARCHITETTURA.md                    ← 🏗️ Architettura tecnica
 │
@@ -302,9 +343,10 @@ Apri una [issue](https://github.com/cyberpandino/cluster/issues/new?template=que
 
 ### Vuoi Contribuire?
 1. Leggi [CONTRIBUTING.md](.github/CONTRIBUTING.md) - Guida completa
-2. Scegli un [template issue](.github/ISSUE_TEMPLATE/) appropriato
-3. Studia [ARCHITETTURA.md](ARCHITETTURA.md) per modifiche al codice
-4. Usa il [template PR](.github/PULL_REQUEST_TEMPLATE.md) per contributi
+2. Cerca idee nella [Roadmap & Wishlist](.github/CONTRIBUTING.md#-vuoi-contribuire-ma-non-hai-idee)
+3. Scegli un [template issue](.github/ISSUE_TEMPLATE/) appropriato
+4. Studia [ARCHITETTURA.md](ARCHITETTURA.md) per modifiche al codice
+5. Usa il [template PR](.github/PULL_REQUEST_TEMPLATE.md) per contributi
 
 ### Template Disponibili
 - [🐛 Bug Report](.github/ISSUE_TEMPLATE/bug_report.md)
