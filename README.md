@@ -608,21 +608,39 @@ Il testo completo della licenza è disponibile nel file [LICENSE](LICENSE) e su 
 
 ## 👥 Contribuire
 
-Per contribuire al progetto:
+Ogni contributo è benvenuto! Che si tratti di codice, documentazione, bug report o suggerimenti.
 
-1. Fork del repository
-2. Crea un branch per la feature: `git checkout -b feature/nome-feature`
-3. Commit modifiche: `git commit -m 'Aggiunta nuova feature'`
-4. Push al branch: `git push origin feature/nome-feature`
-5. Apri una Pull Request
+### 🚀 Come Iniziare
+
+1. Leggi la [guida per contribuire](.github/CONTRIBUTING.md)
+2. Scegli come contribuire:
+   - 🐛 [Segnala un bug](.github/ISSUE_TEMPLATE/bug_report.md)
+   - ✨ [Proponi una feature](.github/ISSUE_TEMPLATE/feature_request.md)
+   - ❓ [Fai una domanda](.github/ISSUE_TEMPLATE/question.md)
+   - 💻 Contribuisci con codice
+
+### 📝 Workflow Contribuzione
+
+1. **Fork** del repository
+2. **Crea un branch**: `git checkout -b feature/nome-feature`
+3. **Fai le tue modifiche** seguendo lo [stile del codice](.github/CONTRIBUTING.md#-stile-del-codice)
+4. **Aggiungi l'header GPL-3.0** ai nuovi file sorgente
+5. **Commit**: `git commit -m 'feat: aggiunta nuova feature'` ([Conventional Commits](https://www.conventionalcommits.org/))
+6. **Push**: `git push origin feature/nome-feature`
+7. **Apri una Pull Request** compilando il [template](.github/PULL_REQUEST_TEMPLATE.md)
+
+### 📋 Template Disponibili
+
+- [🐛 Bug Report](.github/ISSUE_TEMPLATE/bug_report.md) - Segnala problemi
+- [✨ Feature Request](.github/ISSUE_TEMPLATE/feature_request.md) - Proponi miglioramenti
+- [❓ Domanda](.github/ISSUE_TEMPLATE/question.md) - Chiedi aiuto
+- [🔀 Pull Request](.github/PULL_REQUEST_TEMPLATE.md) - Contribuisci con codice
+
+Consulta la [guida completa per contribuire](.github/CONTRIBUTING.md) per tutti i dettagli.
 
 ---
 
 ## 📞 Supporto
 
 Per problemi o domande, apri una issue su GitHub.
-
----
-
-**Sviluppato con ❤️ per Fiat Panda 141**
 

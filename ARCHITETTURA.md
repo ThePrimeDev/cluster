@@ -295,7 +295,7 @@ parseResponse(pid, response, name) {
     unit: 'RPM',
     raw: '41 0C 1A F8',
     success: true,
-    timestamp: '2024-01-01T12:00:00.000Z'
+    timestamp: '2025-01-01T12:00:00.000Z'
   }
 }
 ```

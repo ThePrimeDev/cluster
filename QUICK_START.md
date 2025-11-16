@@ -189,10 +189,20 @@ sudo usermod -a -G gpio $USER
 
 ## 📞 Aiuto
 
-Hai problemi? Consulta:
-1. [README.md](README.md) sezione Troubleshooting
-2. [server/CONFIGURAZIONE_SERVER.md](server/CONFIGURAZIONE_SERVER.md) per hardware
-3. GitHub Issues
+Hai problemi? 
+
+1. **Consulta la documentazione**:
+   - [README.md](README.md) - Troubleshooting generale
+   - [server/CONFIGURAZIONE_SERVER.md](server/CONFIGURAZIONE_SERVER.md) - Problemi hardware
+   - [client/CONFIGURAZIONE.md](client/CONFIGURAZIONE.md) - Problemi client
+
+2. **Apri una issue**:
+   - [🐛 Bug Report](.github/ISSUE_TEMPLATE/bug_report.md) - Segnala un problema
+   - [❓ Domanda](.github/ISSUE_TEMPLATE/question.md) - Fai una domanda
+
+3. **Contribuisci**:
+   - [✨ Feature Request](.github/ISSUE_TEMPLATE/feature_request.md) - Proponi miglioramenti
+   - [CONTRIBUTING.md](.github/CONTRIBUTING.md) - Guida per contribuire
 
 ---
 

@@ -271,21 +271,28 @@ cockpit/
 ## 📞 Supporto
 
 ### Documentazione Non Chiara?
-Apri una issue su GitHub per migliorare la documentazione.
+Apri una [issue](https://github.com/cyberpandino/cluster/issues/new?template=question.md) per migliorare la documentazione.
 
 ### Bug o Problema?
 1. Controlla [README.md](README.md) § Troubleshooting
 2. Controlla documentazione specifica del modulo
-3. Apri issue su GitHub con:
+3. Apri un [Bug Report](https://github.com/cyberpandino/cluster/issues/new?template=bug_report.md) con:
    - Sistema operativo
    - Hardware utilizzato
    - Log completi
    - Passaggi per riprodurre
 
 ### Vuoi Contribuire?
-1. Leggi [README.md](README.md) § Contribuire
-2. Studia [ARCHITETTURA.md](ARCHITETTURA.md)
-3. Fork, sviluppa, Pull Request
+1. Leggi [CONTRIBUTING.md](.github/CONTRIBUTING.md) - Guida completa
+2. Scegli un [template issue](.github/ISSUE_TEMPLATE/) appropriato
+3. Studia [ARCHITETTURA.md](ARCHITETTURA.md) per modifiche al codice
+4. Usa il [template PR](.github/PULL_REQUEST_TEMPLATE.md) per contributi
+
+### Template Disponibili
+- [🐛 Bug Report](.github/ISSUE_TEMPLATE/bug_report.md)
+- [✨ Feature Request](.github/ISSUE_TEMPLATE/feature_request.md)
+- [❓ Domanda](.github/ISSUE_TEMPLATE/question.md)
+- [🔀 Pull Request](.github/PULL_REQUEST_TEMPLATE.md)
 
 ---
 
@@ -336,7 +343,7 @@ const variabile = valore;
 ## 🔄 Aggiornamenti Documentazione
 
 **Versione**: 0.9.0  
-**Ultimo aggiornamento**: Novembre 20245 
+**Ultimo aggiornamento**: Novembre 2025 
 
 ### Changelog
 - ✅ README principale completo
