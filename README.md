@@ -93,8 +93,8 @@ cluster/
 ### 1. Clonare il Repository
 
 ```bash
-git clone <repository-url>
-cd cockpit
+git clone [<repository-url>](https://github.com/cyberpandino/cluster)
+cd cluster
 ```
 
 ### 2. Installare le Dipendenze
