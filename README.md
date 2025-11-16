@@ -42,7 +42,7 @@ L'utilizzo di PandaOS su veicoli in circolazione o in qualsiasi contesto in cui 
 Il progetto è composto da tre moduli principali:
 
 ```
-cockpit/
+cluster/
 ├── client/          → Interfaccia grafica (React + Vite + Electron)
 ├── server/          → Backend comunicazione OBD-II e GPIO (Node.js)
 └── main.js          → Wrapper Electron per desktop app
