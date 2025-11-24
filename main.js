@@ -45,6 +45,7 @@ function createCockpit() {
     });
 
     win.loadURL('http://localhost:5173');
+    
 }
 
 
