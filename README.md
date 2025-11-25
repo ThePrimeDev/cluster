@@ -132,7 +132,7 @@ Perché è un **progetto hobbistico** e vogliamo **divertirci**, non impazzire.
 - 🎨 **Librerie ovunque** - npm ha tutto. C++ ha... ehm... boost?
 - 🧑‍💻 **Accessibile** - Sai React? Benvenuto. Sai CMake? Condoglianze.
 - 🐛 **Debug** - F12 e vedi tutto. GDB invece è... un'esperienza.
-- 🚀 **Divertimento** - Più tempo a smanettare, meno a bestemmiare con toolchain
+- 🚀 **Divertimento** - Più tempo a smanettare, meno a lottare con toolchain
 - 💡 **Prova il concetto** - Funziona? Bene! Poi si vedrà.
 
 **Contro (che accettiamo consapevolmente)**:
@@ -144,7 +144,7 @@ Perché è un **progetto hobbistico** e vogliamo **divertirci**, non impazzire.
 **Il punto è**: Stiamo parlando di una **Panda del 1990**. Non è un F-35. Non deve andare sulla Luna.  
 Deve mostrarti i giri motore in modo figo mentre ascolti i Pink Floyd. E questo lo fa benissimo. 🚗💨
 
-> 💡 **Vuoi rifarlo in C++/Qt "come si deve"?** Fantastico! Apri pure un fork e ti aiutiamo. Ma non lamentarti quando dopo 3 settimane stai ancora debuggando un segfault nel thread del rendering. Noi intanto ci godiamo l'hot reload. 😎
+> 💡 **Vuoi rifarlo in C++/Qt "come si deve"?** Fantastico! Saremmo curiosi di vedere un port nativo e ti aiuteremmo volentieri.
 
 ---
 

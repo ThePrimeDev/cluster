@@ -320,21 +320,21 @@ Una feature "speciale" che vale la pena menzionare a parte:
 
 **Perché non l'abbiamo fatto?**
 
-Perché dopo 2 ore a bestemmiare con CMake abbiamo detto "fanculo, usiamo npm" e non ci siamo più guardati indietro. 😅
+Perché dopo 2 ore di lotta con CMake abbiamo scelto la via più semplice: npm. E sinceramente non ce ne pentiamo. 😅
 
 Lo stack web ci ha permesso di:
-- Avere qualcosa di funzionante in settimane, non anni
-- Non impazzire con cross-compilation ARM
-- Usare librerie fighe tipo Three.js senza dover scrivere shader a mano
-- Divertirci invece di piangere su segfault misteriosi
+- Avere qualcosa di funzionante in settimane, non mesi/anni
+- Evitare la complessità della cross-compilation ARM
+- Usare librerie potenti tipo Three.js senza scrivere shader OpenGL a mano
+- Concentrarci sulla UX invece che sul debugging di segfault
 
-**Ma se sei un masochista con tempo libero...**
+**Ma se hai voglia di accettare la sfida...**
 
 Saremmo **entusiasti** se qualcuno volesse fare un port nativo! Potremmo avere:
-- **PandaOS-Web** (attuale) - Per chi vuole divertirsi
-- **PandaOS-Native** (futuro?) - Per chi vuole soffrire (ma andare veloce)
+- **PandaOS-Web** (attuale) - Approccio rapido e accessibile
+- **PandaOS-Native** (futuro?) - Approccio professionale e performante
 
-Se ti interessa, apri una discussione. Bonus points se riesci a compilare Qt senza bestemmie. 🚀
+Se ti interessa, apri una discussione. Ammiriamo chi ha la pazienza di padroneggiare Qt e CMake. 🚀
 
 ---
 
@@ -351,7 +351,7 @@ Non ci sono timeline fisse. Il progetto è hobbistico e procede quando c'è temp
 
 **Risposta lunga**: [README - Ma React + Electron su un Automotive?!](../README.md#-ma-react--electron-su-un-automotive-siete-pazzi)
 
-**Risposta onesta**: Se dovessimo rifarlo "per bene" useremmo C++/Qt. Ma poi non sarebbe più hobbistico, sarebbe masochismo. 😅
+**Risposta onesta**: Se dovessimo rifarlo "per bene" useremmo C++/Qt. Ma richiederebbe molto più tempo e competenze specifiche. Per ora, il nostro approccio "creativo" funziona benissimo per lo scopo. 😅
 
 ---
 
